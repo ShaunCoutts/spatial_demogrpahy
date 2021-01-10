@@ -1,0 +1,3 @@
+The files ending in .R are modle scripts that fit the models in stan using the 'rstan' interface, helper files that set up the data and distance matrices, or IPM analysis files that take the samples drawn from the posterior distrbutions and calculate quantities such as life-time fruit production. Note, we call E_F, R_0 through the code as a short hand. There are also plotting scripts that build the figures in the paper and diagnostic plots for the models and exploritory plots for the data.
+
+The sampled objects produced by stan were too large to be hosted on github and so these will have to be generated befor the plotting and IPM scripts can be run. Note you will also have to set the working directory to a local directory where the repository was cloned to.
